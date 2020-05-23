@@ -25,7 +25,7 @@ public:
 	void stopDown();
 
 	//get called every frame
-	void update(float elapsedTime, sf::Vector2f mousePosition);
+	void update(float elapsedTime, sf::Vector2i mousePosition);
 	void upgradeSpeed();
 	void upgradeHealth();
 	void increaseHealthLevel(int amaount);
